@@ -311,6 +311,31 @@
   </div>
 </section>
 
+<section id="data-behind">
+  <div class="wrap">
+    <span class="eyebrow">專案一 ｜ 資料背後</span>
+    <h2 class="sec">不只是做圖表：跨系統口徑的挑戰</h2>
+    <p class="sec-sub">讓數字可信，比畫出圖表更難</p>
+    <div class="grid g2">
+      <div class="card">
+        <h3><span class="ic">◈</span>跨系統資料挑戰</h3>
+        <p>同一個績效指標，在不同系統往往算出不同的數字——因為每個系統的計算規則，都是為各自的目的而設計的：新人輔導系統為了考核公平，將非 1 月報到的「破月」排除；管理指標系統則不計報到前 30 天，且滿 30 天後便不再回溯更新。然而人資端的分析，需要的是每位 MA 從報到第一天起算、並能持續更新的完整資料——沒有任何一個現成系統的口徑符合。這些計算邏輯的源頭在前台業務系統，而前台的 SQL 平台又不是 Databricks；要讓儀表板的數字真正可信，就得先釐清差異、回到源頭取得原始邏輯，再正確重現到中台。</p>
+      </div>
+      <div class="card">
+        <h3><span class="ic">●</span>我的角色 · My Role</h3>
+        <ul style="margin:0;padding-left:20px;color:#475569;font-size:15px;line-height:1.85">
+          <li>盤點人資端的分析需求，釐清三個系統的差異與各自的商業目的</li>
+          <li>與前台系統管理單位協作，取得指標最源頭的 SQL 計算邏輯</li>
+          <li>借助 AI 將前台邏輯轉換到中台（Databricks）：保留原本的業務計算方式，僅把時間口徑調整為「從第一天起算、持續更新」以貼合分析需求</li>
+          <li>逐項比對，確認中台產出的數字與來源一致</li>
+          <li>建立人資處統一的分析口徑，讓它成為日後數據分析的共同標準</li>
+          <li>將 MA 考核進度指標整合為單一 Power BI 決策介面，並負責驗收與維護</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="impact">
   <div class="wrap">
     <span class="eyebrow">專案一 ｜ 成效與影響</span>
@@ -352,6 +377,8 @@
       <div class="flow-arrow">→</div>
       <div class="flow-step"><div class="fs-n">4</div><b>協作佈署</b><small>我推版，工程團隊佈署排程</small></div>
     </div>
+    <h3 style="font-size:17px;margin:22px 0 8px">我的角色 · Workflow Owner</h3>
+    <p style="color:#475569;font-size:15px;line-height:1.85;max-width:780px">我的角色是這條流程的 Workflow Owner：從需求、驗證、測試，到協作上線與維護，負責讓它真正落地運作。</p>
     <div class="ba" style="margin-bottom:34px">
       <div class="ba-col ba-before"><h4>🕐 自動化前</h4><ul><li>每期人工撈取、計算、彙整指標</li><li>每期約耗費 1.5 小時</li><li>手動作業容易出錯</li><li>資料更新不即時</li></ul></div>
       <div class="ba-col ba-after"><h4>⚡ 自動化後</h4><ul><li>排程自動執行，零人工介入</li><li>每期省下約 1.5 小時</li><li>計算邏輯一致、可重現</li><li>結果穩定、可隨時產出</li></ul></div>
@@ -455,6 +482,9 @@
           
           <span class="skill" style="background:rgba(139,224,170,.14);border-color:rgba(139,224,170,.3);color:#cdeed9">視覺化設計</span>
           <span class="skill" style="background:rgba(139,224,170,.14);border-color:rgba(139,224,170,.3);color:#cdeed9">AI-assisted Development</span>
+          <span class="skill" style="background:rgba(139,224,170,.14);border-color:rgba(139,224,170,.3);color:#cdeed9">Cross-functional Collaboration</span>
+          <span class="skill" style="background:rgba(139,224,170,.14);border-color:rgba(139,224,170,.3);color:#cdeed9">Business Logic Analysis</span>
+          <span class="skill" style="background:rgba(139,224,170,.14);border-color:rgba(139,224,170,.3);color:#cdeed9">Data Consistency</span>
         </div>
         <p style="color:#bfe0cd;margin-top:16px">橫跨「資料視覺化」與「流程自動化」——能把商業問題落地成儀表板與自動化工具，並善用 AI 協作加速開發、自己把關驗證。</p>
       </div>
